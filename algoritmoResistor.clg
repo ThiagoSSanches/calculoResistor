@@ -1,0 +1,27 @@
+algoritmo calculoResistor;
+// Síntese
+//  Objetivo:  calcular o valor do resistor equivalente Req
+//  Entrada : Valor do Resistor R1 e Valor do Resistor R2
+//  Saída   : valor do resistor Req
+
+
+principal
+	// Declarações
+	real r1;
+	real r2;
+	real req;
+
+	// Instruções
+
+	escreva("Digite o valor do resistor R1: ");
+	leia(r1);
+
+	escreva("Digite o valor do resistor R2: ");
+	leia(r2);
+
+	req = (r1 * r2) / (r1 + r2);
+
+	escreva("O valor do resistor equivalente Req é: ", req);
+	
+
+fimPrincipal
